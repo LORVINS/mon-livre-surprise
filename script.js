@@ -4,6 +4,9 @@ const passwordScreen = document.getElementById("password-screen");
 const coverPage = document.getElementById("cover-page");
 const bookContent = document.getElementById("book-content");
 
+// --- Ajoutez cette ligne pour définir votre mot de passe ---
+const correctPassword = "2803"; // Remplace "tonmotdepasseici" par le vrai mot de passe
+
 const startInteractiveBtn = document.getElementById("start-interactive-btn");
 const interactiveStorySection = document.getElementById("interactive-story-section");
 const interactivePages = document.querySelectorAll('.interactive-page');
